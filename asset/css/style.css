@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.parent {
+	background: #F2F2F2;
+	padding-bottom: 70px;
+}
+.section-One{
+    width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+.title{
+    font-family: ubuntu;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 50px;
+}
+.title-two{
+    font-family: ubuntu;
+    font-size: 72px;
+    line-height: 79px;
+    font-weight: 500;
+    padding-top: 50px;
+    color: #003ECB;
+}
+.subtitle {
+	font-family: open sans;
+	font-size: 16px;
+	line-height: 32px;
+	font-weight: 400;
+	padding: 35px 128px;
+}
+.p-two {
+	font-family: open sans;
+	font-size: 16px;
+	line-height: 25px;
+	font-weight: 400;
+	padding-top: 8px;
+	padding-bottom: 51px;
+}
+.section-two {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	width: 1140px;
+}
+.parent-one{
+    width: 41%;
+    background: #003ECB;
+}
+.photo {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 52px 0;
+}
+.xphoto{
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+}
+.parent-one h3 {
+	font-family: ubuntu;
+	font-size: 48px;
+	line-height: 57px;
+	font-weight: 400;
+	text-align: center;
+	color: #fff;
+	margin-top: 30px;
+}
+.xlink {
+	text-align: center;
+	margin-top: 56px;
+	padding-bottom: 70px;
+}
+.xlink a {
+	color: #fff;
+	border: 1px solid #ffff;
+	font-family: open sans;
+	font-size: 14px;
+	line-height: 22px;
+	font-weight: 700;
+	padding: 17px 60px;
+    letter-spacing: 1px;
+}
+.xlink a:hover{
+	background: #fff;
+	color: #003ECB;
+}
+.parent-two {
+	width: 59%;
+	display: flex;
+	flex-wrap: wrap;
+}
+.design {
+	background: #fff;
+	flex-wrap: wrap;
+	width: 43%;
+	margin-left: 43px;
+	box-shadow: 10px 10px 10px #0000001f;
+	display: flex;
+	flex-direction: column;
+}
+.design img {
+	width: 75px;
+	margin: 66px 0 0 33px;
+}
+.design h4 {
+	font-family: ubuntu;
+	font-size: 30px;
+	line-height: 36px;
+	font-weight: 400;
+	margin: 20px 0 0 33px;
+}
+.design a{
+    color: #000;
+    text-decoration: underline;
+    font-family: open sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 1px;
+    display: block;
+    margin: 20px 0 0 33px;
+}
+.one{
+    border-bottom: 10px solid #FBA61B;
+    margin-bottom: 20px;
+}
+.two{
+    margin-bottom: 20px;
+    border-bottom: 10px solid #0CC7D0;
+}
+.three{
+    border-bottom: 10px solid #003ECB;
+}
+.four{
+    border-bottom: 10px solid #F1C50E;
+}
+.end {
+	background: #333333;
+	text-align: center;
+	color: #fff;
+    padding: 45px 0;
+}
+.section-end a{
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+@media (min-width:420px) and (max-width:575.8px){
+	.section-One{
+		width: 100%;
+	}
+	.title{
+		color: #FBFEFF;
+	}
+	.title-two{
+		font-size: 36px;
+		line-height: 39px;
+		font-weight: 500;
+	}
+	.subtitle{
+		padding: 15px 35px;
+	}
+	.section-two{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		width: 90%;
+	}
+	.parent-one{
+		width: 100%;
+	}
+	.parent-one h3{
+		font-size: 30px;
+		line-height: 36px;
+		font-weight: 400;
+		padding: 0 50px;
+	}
+	.parent-two{
+		width: 100%;
+	}
+	.design{
+		width: 100%;
+		margin-right: 45px;
+	}
+	.one{
+		margin-top: 25px;
+	}
+	.four{
+		margin-top: 25px;
+	}
+   
+}
+@media (min-width:576px) and (max-width:776.8px){
+	.section-One{
+		width: 100%;
+	}
+	.title{
+		color: #000;
+	}
+	.title-two{
+		font-weight: 500;
+	}
+	.subtitle{
+		padding: 10px 30px;
+	}
+	.section-two{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 100%;
+
+	}
+	.parent-one{
+		width: 90%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-bottom: 30px;
+	}
+	.parent-one h3{
+		font-size: 36px;
+		line-height: 43px;
+		font-weight: 400;
+		padding: 10px 20px;
+	}
+	.parent-two{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 100%;
+	}
+	.design{
+		width: 36%;
+		margin-right: 30px;
+	}
+
+}
+@media (min-width:777px) and (max-width:992px){
+	.section-One{
+		width: 100%;
+	}
+	.subtitle{
+		padding: 10pz 10px;
+	}
+	.section-two{
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		justify-content: center;
+	}
+	.parent-one{
+		width: 38%;
+		justify-content: center;
+	}
+	.parent-one h3{
+		font-size: 36px;
+		line-height: 43px;
+		font-weight: 400;
+		padding: 10px 20px;
+	}
+	.parent-two{
+		width: 60%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.design{
+		width: 40.5%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
+
